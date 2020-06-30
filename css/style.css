@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto&display=swap');
+
+html { 
+    scroll-behavior: smooth; 
+}
+
+hr {
+    margin: 2em 0;
+}
+
+/*NavBar*/
+.logo {
+    font-family: 'Libre Baskerville', sans-serif;
+    font-size: 1.8rem;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+/* Slider */
+.carousel {
+    padding: 0;
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.carousel-item {
+transition: -webkit-transform 0.5s ease;
+transition: transform 0.5s ease;
+transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+-webkit-backface-visibility: visible;
+        backface-visibility: visible;
+}
+
+/* Secoes */
+.secao {
+    min-height: 100vh;
+}
+
+.secao-texto {
+    padding: 2em 5em;
+}
+
+.secao-img {
+    width: 75%;
+}
+
+/* Responsivo */
+@media (min-width: 768px) {
+    .secao-img {
+        width: 100%;
+    }
+}
+
+/* Footer */
+.footer {
+    margin-top: 2em;
+    height: 10vh;
+}
