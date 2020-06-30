@@ -54,15 +54,26 @@ transition: transform 0.5s ease, -webkit-transform 0.5s ease;
     width: 75%;
 }
 
+
+/* Footer */
+.footer {
+    margin-top: 2em;
+    height: 30vh;
+    text-align: center;
+}
+
+.footer-text {
+    display: block;
+    padding: 0 2em;
+}
+    
 /* Responsivo */
 @media (min-width: 768px) {
     .secao-img {
         width: 100%;
     }
-}
 
-/* Footer */
-.footer {
-    margin-top: 2em;
-    height: 10vh;
+    .footer {
+        height: 15vh;
+    }
 }
