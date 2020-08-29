@@ -3,6 +3,9 @@
 ## Sobre
 Projeto de site responsivo sobre o método "Bullet Journal" feito como avaliação para a matéria de Tecnologia Web I. Vale ressaltar que o método [Bullet Journal](https://bulletjournal.com/) é propriedade intelectual do designer [Rider Carroll](http://www.rydercarroll.com/), a minha intenção é unicamente a de divulgar seu uso.
 
+## Live
+É possível dar uma conferida no site [neste link](https://andradeoromulo.github.io/bujo/)! 
+
 ## Tecnologias
 O site foi construído com HTML, CSS e um pouco de JavaScript para fazer a animação do scroll. Como parte obrigatória da avaliação, foi utilizado o framework [Bootstrap](https://getbootstrap.com.br/).
 
